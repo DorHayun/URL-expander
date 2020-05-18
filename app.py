@@ -15,3 +15,4 @@ for item in updates:
   print(uri)
   requests.get("https://api.telegram.org/bot857617376:AAFX-IATq2rEKPsKcW7ylkhe_pA7jOZZeK0/sendMessage?chat_id=478322885&text={}".format(message))
 
+make_rte()
